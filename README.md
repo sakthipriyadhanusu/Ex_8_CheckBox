@@ -141,42 +141,8 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 
-## AndroidMainfest.xml
-```
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.exp8">
-
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Exp8"
-        tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
-</manifest>
-```
 ## Output
-![Screenshot 2024-11-15 191510](https://github.com/user-attachments/assets/56846da2-8fec-45b7-ac29-e8109f1b4599)
+![image](https://github.com/user-attachments/assets/a810bc0e-124d-4400-aaa1-7ae6ccf2026e)
 
-
-
-
-![Screenshot 2024-11-15 191521](https://github.com/user-attachments/assets/7f2f3800-ba19-4fab-933a-81db42b5d080)
 ## Result:
 Thus a Simple Android Application to create an check box and display the selected check box using Android Studio was developed and executed successfully.
